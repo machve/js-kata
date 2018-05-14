@@ -1,0 +1,18 @@
+body {background-color: #ffe751}
+
+#cookie-slider {width: 100vw;
+    height: 100px;
+    background-color:#1c98ea;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+button {
+    position: absolute;
+    z-index: 1;
+    bottom: 34px;
+    width: 85px;
+    right: 57px;
+    height: 30px;
+    border-radius: 8px;
+}
