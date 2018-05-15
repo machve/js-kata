@@ -1,18 +1,25 @@
+body, html{
+    margin: 0;
+}
+
 body {background-color: #ffe751}
 
-#cookie-slider {width: 100vw;
+#cookie {width: 100vw;
     height: 100px;
     background-color:#1c98ea;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+   bottom:-100px;
     left:0;
+    transition: all 1s;
+    transform: translate(0,0);
+  overflow: hidden;
 }
-button {
-    position: absolute;
-    z-index: 1;
+button#close{
     bottom: 34px;
+    position: absolute;
     width: 85px;
     right: 57px;
     height: 30px;
     border-radius: 8px;
 }
+
