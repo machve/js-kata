@@ -1,9 +1,14 @@
-let texts= [...document.getElementsByTagName("li")];
-console.log(texts);
+const texts= [...document.getElementsByTagName("li")];
+
+
 const litext = texts.map(li => li.textContent);
-console.log(litext);
+
+const kidsOmmit = litext.shift();
+const kidsOmmit1= litext.splice(2,1)
+const kidsOmmit2= litext.splice(3,1)
+
 const string = litext.toString();
-console.log(string);
+
 
 
 
