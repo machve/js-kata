@@ -1,1 +1,38 @@
 /* TODO: Make it pretty! */
+body{margin: 0 15% 0 15%;
+    background: #0DE496;
+    color: white;
+    font-family: 'Roboto', sans-serif;}
+li {
+
+padding:10px;
+margin: 10px;
+
+list-style-type: none;
+}
+li a{border: solid 2px white;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding:20px;
+    display: inline-block;
+    width: 70%;
+    transition: background-color 0.7s ease;    
+    transition: color 0.7s ease ;    
+    transition: border 0.7s ease ;    
+
+}
+li a:hover {
+    background: white;
+    color: #0DE496;
+    border:solid 2px #0DCC90;
+}
+h1 {
+
+    margin-top:30px;
+    margin-left: 48px;
+    padding:10px;
+}
+p{  font-size: 17px;
+    margin-left: 58px;
+}
