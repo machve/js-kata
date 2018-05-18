@@ -65,3 +65,12 @@ ul#colorselector {
 ul#colorselector li {
     cursor: pointer;
 }
+ul#colorselector li#color-a{
+    color: hsl(118, 98%, 60%);
+}
+ul#colorselector li#color-b{
+    color: hsl(255, 90%, 54%);
+}
+ul#colorselector li#color-c{
+    color: hsl(302, 73%, 53%);
+}
