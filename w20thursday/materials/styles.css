@@ -1,12 +1,12 @@
 :root {
     --basecolor: 20;
-    /* TODO: Make these color-names, that uses HSL with basecolor ...
-        --color-bright
-        --color-brighter
-        --color-mid
-        --color-darker
-        --color-dark
-    */
+    --color-bright: hsl(var(--basecolor), 50%, 72%);
+    --color-brighter: hsl(var(--basecolor), 50%, 55%);
+    --color-mid: hsl(var(--basecolor), 50%, 40%);
+    --color-darker: hsl(var(--basecolor), 50%, 25%);
+    --color-dark: hsl(var(--basecolor), 50%, 11%);
+    
+
 }
 
 body {
@@ -17,7 +17,6 @@ body {
     font-weight: 100;
     font-size: 50px;
 }
-    
 
 .colors {
     border: 2px solid black;
@@ -31,26 +30,24 @@ body {
 }
 
 .color1 {
- 
-    background-color: hsl(var(--basecolor), 50%, 72%);  
+    background-color: hsl(var(--basecolor), 50%, 72%);
 }
 
 .color2 {
-    background-color: hsl(var(--basecolor), 50%, 55%); 
+    background-color: hsl(var(--basecolor), 50%, 55%);
 }
 
 .color3 {
-    background-color: hsl(var(--basecolor), 50%, 40%); 
+    background-color: hsl(var(--basecolor), 50%, 40%);
 }
 
 .color4 {
-    background-color: hsl(var(--basecolor), 50%, 25%); 
+    background-color: hsl(var(--basecolor), 50%, 25%);
 }
 
 .color5 {
-    background-color: hsl(var(--basecolor), 50%, 11%); 
+    background-color: hsl(var(--basecolor), 50%, 11%);
 }
-
 
 h1 {
     color: var(--color-bright);
