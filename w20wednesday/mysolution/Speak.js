@@ -1,12 +1,8 @@
 const texts= [...document.getElementsByTagName("li")];
-
-
 const litext = texts.map(li => li.textContent);
-
 const kidsOmmit = litext.shift();
 const kidsOmmit1= litext.splice(2,1)
 const kidsOmmit2= litext.splice(3,1)
-
 const string = litext.toString();
 
 

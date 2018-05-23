@@ -1,6 +1,17 @@
 "use strict";
 
-window.addEventListener("DOMContentLoaded", buildList);
+// window.addEventListener("DOMContentLoaded", buildList);
+
+const ul = document.querySelector("h1");
+console.log(ul);
+
+// const numberOfLi = 16;
+// function createLi(){
+// for(let i=0; i<numberOfLi; i++) {
+// const li = document.createElement("li");
+// ul.appendChild(li);
+
+// }}
 
 const list_data = [
     {
@@ -70,16 +81,20 @@ const list_data = [
 ];
 
 
-function buildList() {
 
-    // build a list of all the links in list_data
+// function buildList() {
+   
 
-    // create a <li>-element for each one, let it contain a link to the link, with the description as text
+    
 
-    // use the createLi function to create an li-element
+//     // build a list of all the links in list_data
 
-    // append all the created <li>-elements to #thelist
+//     // create a <li>-element for each one, let it contain a link to the link, with the description as text
 
-}
+//     // use the createLi function to create an li-element
 
-// TODO: Make function createLi
+//     // append all the created <li>-elements to #thelist
+
+
+// }
+// // TODO: Make function createLi

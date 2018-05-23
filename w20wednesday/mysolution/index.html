@@ -2,37 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>To-do list</title>
-  
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>To-do list</title>
+
 </head>
 
 <body>
-   
-            <h1 id="original">I don't think you know what you are doing</h1>
-    <button>Press me :-)</button>
-    <h1>My To-do list</h1>
-    <ul>
-        <li>Pick up the kids</li>
-        <li>Buy milk</li>
-        <li>Do some JavaScript</li>
-        <li>Feed the kids</li>
-        <li>Look at the hsl color format</li>
-        <li>Ignore the kids</li>
-        <li>Feed the cat</li>
-    </ul>
-  
-    <script src="Speak.js"></script>
-    <script>
-            let speech = new Speak();
-        document.querySelector("button").addEventListener("click",e=>{
-            speech.setVoice(51)
-            speech.speak(string)
-            //console.log(speech.getVoices(true))
-        })
-        </script>
-   
+
+	<h1 id="original">I don't think you know what you are doing</h1>
+	<button>Press me :-)</button>
+	<h1>My To-do list</h1>
+	<ul>
+		<li>Pick up the kids</li>
+		<li>Buy milk</li>
+		<li>Do some JavaScript</li>
+		<li>Feed the kids</li>
+		<li>Look at the hsl color format</li>
+		<li>Ignore the kids</li>
+		<li>Feed the cat</li>
+	</ul>
+
+	<script src="Speak.js"></script>
+	<script>
+		let speech = new Speak();
+		document.querySelector("button").addEventListener("click", e => {
+			speech.setVoice(51)
+			speech.speak(string)
+				//console.log(speech.getVoices(true))
+		})
+	</script>
+
 </body>
+
 </html>

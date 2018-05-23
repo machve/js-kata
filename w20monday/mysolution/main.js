@@ -1,5 +1,5 @@
 "use strict";
-// on window load move div up
+// on window load move div çsup
 const div = document.querySelector("div");
 window.addEventListener("load",function movediv (){
 console.log("hi mom")

@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>w20wednesday</title>
-    <script src="Speak.js"></script>
+   
 </head>
 <body>
+        <h1 id="original">I don't think you know what you are doing</h1>
     <h1>Speech API</h1>
     <p>Make sure your audio is on, then...</p>
     <button>Press me :-)</button>
@@ -15,7 +16,7 @@
         let speech = new Speak();
     document.querySelector("button").addEventListener("click",e=>{
         speech.setVoice(51)
-        speech.speak("What a lovely day for some JavaScript")
+        speech.speak("fart")
         //console.log(speech.getVoices(true))
     })
     </script>

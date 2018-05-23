@@ -1,5 +1,6 @@
 :root {
     --basecolor: 20;
+
     --color-bright: hsl(var(--basecolor), 50%, 72%);
     --color-brighter: hsl(var(--basecolor), 50%, 55%);
     --color-mid: hsl(var(--basecolor), 50%, 40%);
@@ -7,6 +8,16 @@
     --color-dark: hsl(var(--basecolor), 50%, 11%);
     
 
+
+    /* TODO:
+        (For the additional task at the very end):
+        Make these color-names, that uses HSL with basecolor ...
+        --color-bright
+        --color-brighter
+        --color-mid
+        --color-darker
+        --color-dark
+    */
 }
 
 body {
