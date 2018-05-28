@@ -6,14 +6,14 @@ let section = document.querySelector('section');
 function getTweets() {
 
 
-    fetch("http://kea-alt-del.dk/twitter/api/?count=50/?hashtag=word").then(res => res.json())
+    fetch("http://kea-alt-del.dk/twitter/api/?count=100/?hashtag=word").then(res => res.json())
         .then(showData);
 }
 
 function showData(json) {
     let tweet = json.statuses;
 
-    console.log(tweet);
+
 
 
     tweet.forEach(status => {
@@ -21,11 +21,11 @@ function showData(json) {
         let text = status.text;
         let user = status.user.name;
         let language = status.lang;
-        console.log(user);
+       
+        console.log(text)
 
 
         let clone = template.cloneNode(true);
-
 
 
      if (status.lang === "en"){
