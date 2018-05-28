@@ -1,15 +1,23 @@
 "use strict"
 
 function getTweets() {
-    fetch("http://kea-alt-del.dk/twitter/api/?count=50/?hashtag=word").then(function (a) {
-        return a.json()
-    }).then(showTweets)
+   
+
+    fetch("http://kea-alt-del.dk/twitter/api/?count=50/?hashtag=word").then(res => res.json())
+    .then(showData);
 }
 
-function showTweets(tweet) {
-    console.log(tweet)
+function showData(json){
+    let tweet = json.statuses;
+    console.log(tweet);
+tweet.forEach(status => {
+    if (status.lang === "en"){
+    console.log(status.text)}
+})
+    // json.forEach(function(tweet){
+    
+    // console.log("hi")
+    // })
+};
 
-
-}
-
-getTweets();
+    getTweets();
